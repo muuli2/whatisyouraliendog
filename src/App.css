@@ -144,7 +144,7 @@ body {
 
 @media (max-width: 600px) {
   .center-title {
-    top: 35% !important; /* 👈 เดิม 50% → ขยับลงนิด */
+    top: 29% !important; /* 👈 เดิม 50% → ขยับลงนิด */
   }
 
   .sub-title {
@@ -342,7 +342,7 @@ font-family: "HenFont";
 
 @media (max-width: 600px) {
   .eyes {
-    gap: 50px;
+    gap: 65px;
   }
 }
 
