@@ -342,7 +342,7 @@ font-family: "HenFont";
 
 @media (max-width: 600px) {
   .eyes {
-    gap: 30px;
+    gap: 50px;
   }
 }
 
