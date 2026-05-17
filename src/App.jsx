@@ -420,7 +420,7 @@ useEffect(() => {
   if (step === 1) {
   return (
     <div
-      className="container dark center-wrap"
+      className="container dark "
       onClick={() => {
         if (storyIndex < storyTexts.length - 1) {
           setStoryIndex(prev => prev + 1)
@@ -465,7 +465,7 @@ useEffect(() => {
   // =========================
 if (step === 2) {
   return (
-    <div className="container dark center-wrap">
+    <div className="container dark ">
 
        <SpaceStar3 />
       <SpaceStar4 />
@@ -500,7 +500,7 @@ if (step === 2) {
   // =========================
   if (step === 3) {
     return (
-      <div className="container dark center-wrap">
+      <div className="container dark ">
 
          <SpaceStar3 />
       <SpaceStar4 />
