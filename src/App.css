@@ -535,21 +535,17 @@ margin-top: 30px
   margin-top: 40px;
 }
 
-.dog-card{
-   width: 100%;
+.dog-card {
+  width: 100%;
   background: rgba(255,255,255,0.06);
-
   border-radius: 20px;
 
-  padding: 16px;
+  padding: clamp(10px, 2vw, 16px);
 
   cursor: pointer;
-
   transition: 0.25s;
-
   text-align: center;
 }
-
 .dog-card:hover{
   transform: translateY(-6px) scale(1.03);
 }
