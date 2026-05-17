@@ -312,6 +312,8 @@ font-family: "HenFont";
   width: 100%;
 }
 
+
+
 .eyes {
   width: 100%;
   max-width: 900px;
@@ -354,6 +356,12 @@ font-family: "HenFont";
   align-items: center;
 
   font-size: clamp(10px, 2vw, 18px);
+}
+
+@media (max-width: 600px) {
+  .nose-wrapper {
+    font-size: 12px;
+  }
 }
 
 .result-only {
