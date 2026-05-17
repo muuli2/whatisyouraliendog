@@ -595,6 +595,7 @@ margin-top: 30px
   text-align: center;
 
   animation: popupShow 0.25s ease;
+  z-index: 8;
 }
 
 .popup-img{
