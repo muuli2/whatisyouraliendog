@@ -723,7 +723,13 @@ margin-top: 30px
 
   transition: 0.2s;
 }
-
+@media (max-width: 600px) {
+  .nose-btn {
+    width: 220px;
+    height: 85px;
+    font-size: 20px;
+  }
+}
 .nose-btn:hover {
 
   transform: scale(1.05);
