@@ -743,7 +743,7 @@ margin-top: 30px
   }
 
   .nose-wrapper:hover .tongue {
-    transform: translateY(20px); /* 👈 ลดระยะตอนเด้ง */
+    transform: translateY(10px); /* 👈 ลดระยะตอนเด้ง */
   }
 }
 .nose-btn:hover {
