@@ -524,6 +524,7 @@ margin-top: 30px
 }
 
 .dog-card{
+   width: 100%;
   background: rgba(255,255,255,0.06);
 
   border-radius: 20px;
@@ -568,7 +569,7 @@ margin-top: 30px
 }
 
 .popup-card{
-  width: 90%;
+  width: 100%;
 
   max-width: 520px;
 
@@ -584,7 +585,7 @@ margin-top: 30px
 }
 
 .popup-img{
-  width: 100%;
+  width: 75%;
 
   border-radius: 20px;
 
