@@ -120,7 +120,7 @@ body {
 /* 👉 บรรทัดเล็ก */
 .sub-title {
   display: block;
-  font-size: clamp(30px, 2.5vw, 28px);
+  font-size: clamp(32px, 2.5vw, 28px);
   font-weight: 400;
   margin-bottom: 10px;
   opacity: 1;
@@ -132,7 +132,7 @@ body {
 /* 👉 ตัวหลัก */
 .center-title span {
   display: inline-block;
-  font-size: clamp(24px, 2.9vw, 51px);
+  font-size: clamp(32px, 2.9vw, 51px);
   animation: floaty 2.5s ease-in-out infinite;
 }
 
