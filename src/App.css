@@ -316,22 +316,17 @@ font-family: "HenFont";
   width: 100%;
   max-width: 900px;
   display: flex;
-  justify-content: center; /* 👈 เปลี่ยนจาก space-between */
-  gap: 250px;               /* 👈 คุมระยะตา */
+  justify-content: center;
+  gap: clamp(40px, 10vw, 250px);
   align-items: center;
   margin-bottom: 80px;
 }
 
 .eye {
-
-  width: 95px;
-
-  height: 100px;
-
+  width: clamp(45px, 8vw, 95px);
+  height: clamp(50px, 8.5vw, 100px);
   background: black;
-
   border-radius: 999px;
-  
 }
 
 .title {
