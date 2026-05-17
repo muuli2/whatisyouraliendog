@@ -711,7 +711,7 @@ margin-top: 30px
 
   background: black;
 
-  color: #6E4FA5 !important;
+  color: #ffffff !important;
 
   font-size: 30px;
 
@@ -735,11 +735,7 @@ margin-top: 30px
     height: 50px;
   }
 
-  .tongue {
-    width: 70px;
-    height: 70px;
-    top: 65px;
-  }
+ 
 }
 .nose-btn:hover {
 
@@ -750,7 +746,7 @@ margin-top: 30px
   content: "";
   width: 160px;
   height: 70px;
-  background: #efefef;
+  
   border-radius: 999px;
   position: absolute;
   top: 50%;
@@ -783,7 +779,7 @@ margin-top: 30px
 .tongue {
   width: 90px;
   height: 90px;
-  background: #4E4975;
+  background: #4e4975;
   border-radius: 0 0 50px 50px;
   position: absolute;
   top: 80px;
