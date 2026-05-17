@@ -619,10 +619,10 @@ margin-top: 30px
 }
 
 @media (max-width: 600px) {
-  .result-only .space-orb,
-  .result-only .space-orb2,
-  .result-only .space-orb3,
-  .result-only .space-orb4 {
+  .center-wrap .space-orb,
+  .center-wrap .space-orb2,
+  .center-wrap .space-orb3,
+  .center-wrap .space-orb4 {
     display: none !important;
   }
 }
