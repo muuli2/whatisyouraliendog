@@ -493,6 +493,12 @@ font-family: "HenFont";
     transform: translateY(0px);
   }
 }
+
+@media (max-width: 600px) {
+  .floating-star {
+    display: none;
+  }
+}
 .result-name{
 margin-top: 30px
 }
@@ -523,6 +529,10 @@ margin-top: 30px
   margin-bottom: 50px;
 
   font-size: 2rem;
+}
+
+.popup-card h2 {
+  color: white;
 }
 
 .dog-grid {
@@ -570,7 +580,7 @@ margin-top: 30px
 
   inset: 0;
 
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.452);
 
   display: flex;
 
@@ -586,7 +596,7 @@ margin-top: 30px
 
   max-width: 520px;
 
-  background: #120522;
+  background: #1f093b;
 
   border-radius: 30px;
 
