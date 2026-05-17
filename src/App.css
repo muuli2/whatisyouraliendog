@@ -729,6 +729,17 @@ margin-top: 30px
     height: 85px;
     font-size: 20px;
   }
+
+  .nose-btn::before {
+    width: 120px;
+    height: 55px;
+  }
+
+  .tongue {
+    width: 70px;
+    height: 70px;
+    top: 65px;
+  }
 }
 .nose-btn:hover {
 
