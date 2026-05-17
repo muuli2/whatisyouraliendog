@@ -144,7 +144,7 @@ body {
 
 @media (max-width: 600px) {
   .center-title {
-    top: 29% !important; /* 👈 เดิม 50% → ขยับลงนิด */
+    top: 25% !important; /* 👈 เดิม 50% → ขยับลงนิด */
   }
 
   .sub-title {
