@@ -120,7 +120,7 @@ body {
 /* 👉 บรรทัดเล็ก */
 .sub-title {
   display: block;
-  font-size: clamp(14px, 2.5vw, 28px);
+  font-size: clamp(24px, 2.5vw, 28px);
   font-weight: 400;
   margin-bottom: 10px;
   opacity: 1;
