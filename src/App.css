@@ -322,6 +322,12 @@ font-family: "HenFont";
   margin-bottom: 80px;
 }
 
+@media (max-width: 600px) {
+  .eyes {
+    gap: 30px;
+  }
+}
+
 .eye {
   width: clamp(45px, 8vw, 95px);
   height: clamp(50px, 8.5vw, 100px);
