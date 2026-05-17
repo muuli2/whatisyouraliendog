@@ -468,6 +468,12 @@ font-family: "HenFont";
 
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .mini-desc {
+    font-size: 0.7rem;
+  }
+}
 .floating-star{
   position: absolute;
   top: 15%;
