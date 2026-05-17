@@ -109,6 +109,12 @@ body {
   font-size: clamp(24px, 5vw, 56px);
 }
 
+@media (max-width: 768px) {
+  .center-title {
+    font-size: 28px;
+  }
+}
+
 .center-title {
   text-align: center;
   color: #6E4FA5;
