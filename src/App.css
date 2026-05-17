@@ -735,15 +735,18 @@ margin-top: 30px
     height: 50px;
   }
 
+}
+
+@media (max-width: 600px) {
   .tongue {
-    width: 50px;
-    height: 50px;
-    top: 55px; /* 👈 ขยับลงนิด */
-    transform: translateY(-8px); /* 👈 ให้เริ่มโผล่น้อยลง */
+    width: 50px !important;
+    height: 50px !important;
+    top: 55px !important;
+    transform: translateY(-5px) !important;
   }
 
   .nose-wrapper:hover .tongue {
-    transform: translateY(10px); /* 👈 ลดระยะตอนเด้ง */
+    transform: translateY(15px) !important;
   }
 }
 .nose-btn:hover {
