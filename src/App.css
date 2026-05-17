@@ -348,14 +348,12 @@ font-family: "HenFont";
 
 .nose-wrapper {
   color: #6E4FA5;
-
   position: relative;
-
   display: flex;
-
   justify-content: center;
-
   align-items: center;
+
+  font-size: clamp(10px, 2vw, 18px);
 }
 
 .result-only {
