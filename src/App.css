@@ -592,6 +592,14 @@ margin-top: 30px
   z-index: 999;
 }
 
+@media (max-width: 600px) {
+  .container.center-wrap .floating-star,
+  .container.center-wrap .SpaceStar,
+  .container.center-wrap .SpaceStar2 {
+    display: none;
+  }
+}
+
 .popup-card{
   width: 100%;
 
