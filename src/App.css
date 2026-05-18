@@ -1,6 +1,6 @@
 @font-face {
   font-family: "DogFont";
-  src: url("./assets/fonts/iannnnn-DOG-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/iannnnn-DOG-Light.ttf") format("opentype");
 }
 
 html,
@@ -41,18 +41,12 @@ span {
 
 
 body {
-
-  
-
   margin: 0;
-
   width: 100vw;
-
   min-height: 100vh;
-
   overflow-x: hidden;
 
-  font-family: sans-serif;
+  font-family: "DogFont", sans-serif;
 }
 
 .mini-credit{
